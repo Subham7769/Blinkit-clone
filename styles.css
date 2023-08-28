@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
   font-family: roboto;
+  scroll-behavior: smooth;
 }
 .location > h5 {
   color: rgb(0, 0, 0);
@@ -65,6 +66,9 @@
   box-sizing: border-box;
   white-space: normal !important;
   margin-inline: 10px !important;
+}
+.my-card:hover{
+  transform: scale(1.1);
 }
 .my-card > img {
   margin: auto !important;
@@ -142,7 +146,7 @@
 .social-icon {
   width: 50px;
   height: 50px;
-  margin: auto;
+  margin: 10px;
   background-color: black;
   border-radius: 50%;
   color: white;
