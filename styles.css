@@ -19,6 +19,30 @@
   border-left: 55px solid grey;
 }
 
+.banner{
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c831f;
+  color: white;
+  height: auto;
+}
+.banner>div>img{
+  float: right;
+  width: 300px;
+  height: 200px;
+}
+.banner-text{
+  position: relative;
+}
+.banner>div>button{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: white;
+  color: green;
+}
+
 .search-div {
   padding: 0px 12px;
   border: 1px solid rgb(232, 232, 232);
