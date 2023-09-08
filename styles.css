@@ -19,7 +19,7 @@
   border-left: 55px solid grey;
 }
 
-.banner{
+/* .banner{
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -41,7 +41,7 @@
   left: 10px;
   background-color: white;
   color: green;
-}
+} */
 
 .search-div {
   padding: 0px 12px;
