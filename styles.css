@@ -74,9 +74,7 @@
   overflow-x: scroll;
   margin: auto;
 }
-.my-list {
-  white-space: nowrap;
-}
+ 
 .my-list > img {
   padding-inline: 10px;
 }
